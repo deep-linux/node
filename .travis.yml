@@ -1,17 +1,3 @@
 language: node_js
 node_js:
-  - "7"
-  - "6"
-  - "5"
-  - "4"
-
-script: echo "Running tests against $(node -v) ..."
-
-jobs:
-  include:
-    - stage: npm release
-      node_js: "7"
-      script: echo "Deploying to npm ..."
-      test : nodejs.js
-      deploy:
-        provider: npm
+  -12
