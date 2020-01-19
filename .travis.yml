@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - 12
+  - "12"
 
-scripts: 
-  npm test
+"scripts": {
+  "test": "npm test"
+}
