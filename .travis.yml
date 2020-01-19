@@ -2,8 +2,5 @@ language: node_js
 node_js:
   - 12
 
-scripts: {
-  start: node nodejs.js,
-  test: mocha
-}
-
+scripts: 
+  npm test
