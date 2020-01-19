@@ -3,5 +3,5 @@ node_js:
   - "12"
 
 "scripts": {
-  "test": "npm test"
+  test: npm test
 }
