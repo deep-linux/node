@@ -4,7 +4,7 @@
   "description": "",
   "main": "nodejs.js",
   "scripts": {
-    "test": "npm test",
+    "test": "ocha --require babel-register tests/*.js --exit",
     "start": "node nodejs.js"
   },
   "keywords": [],
