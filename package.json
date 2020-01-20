@@ -4,7 +4,7 @@
   "description": "",
   "main": "nodejs.js",
   "scripts": {
-    "test": "node nodejs.js",
+    "test": "mocha",
     "start": "node nodejs.js"
   },
   "keywords": [],
