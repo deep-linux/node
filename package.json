@@ -6,8 +6,7 @@
   "scripts": {
     "test": "mocha",
     "start": "node nodejs.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
+  "dependencies": 
+  "mocha":"7.0.0"
 }
